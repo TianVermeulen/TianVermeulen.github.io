@@ -259,11 +259,14 @@ body.border-dark .main-content:after{
 }
 .intro-text > h1{
 	margin:0;
-	color:#FFF;
+	color:white;
 	text-transform:uppercase;
 	font-weight:900;
 	letter-spacing:8px;
 	font-size:78px;
+	margin-top:400px;
+	text-shadow: #000 0px 0px 15px;
+
 }
 .intro-text > p{
 	font-size:18px;
@@ -276,7 +279,7 @@ body.border-dark .main-content:after{
 	letter-spacing:2px;
 }
 .intro-text > .intro-btns{
-	margin-top:45px;
+	margin-top:10px;
 }
 .intro-text > .intro-btns > .btn-custom{
 	margin:0 15px;
@@ -287,6 +290,7 @@ a.btn-custom{
 }
 .btn-custom{
 	color:#FFF;
+	text-shadow: #000 0px 0px 15px;
 	letter-spacing:4px;
 	text-transform:uppercase;
 	text-decoration:none;
@@ -518,6 +522,7 @@ body.section-switching.up .animation-block{
 }
 
 #typewriter {
+	text-shadow: #000 0px 0px 15px;
 	color: lightgray;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid transparent; /* The typwriter cursor */
